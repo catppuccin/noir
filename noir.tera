@@ -24,7 +24,7 @@ whiskers:
 
 1. Open one of the flavors below:
 {%- for _, flavor in flavors %}
-  - [{{ flavor.emoji }} {{ flavor.name }}](https://getnoir.app/theme/?name=Catppuccin%20{{ flavor.name }}&bg={{ flavor.colors.base.hex }}&text={{ flavor.colors.text.hex }})
+  - [{{ flavor.emoji }} {{ flavor.name }}](https://getnoir.app/theme/?name=Catppuccin%20{{ flavor.identifier | capitalize }}&bg={{ flavor.colors.base.hex }}&text={{ flavor.colors.text.hex }})
 {%- endfor %}
 2. Tap/click on "Open Theme In App".
 3. Add the theme, optionally enabling "Set as Default Theme"

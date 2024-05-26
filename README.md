@@ -19,7 +19,7 @@
 
 1. Open one of the flavors below:
   - [🌻 Latte](https://getnoir.app/theme/?name=Catppuccin%20Latte&bg=eff1f5&text=4c4f69)
-  - [🪴 Frappé](https://getnoir.app/theme/?name=Catppuccin%20Frappé&bg=303446&text=c6d0f5)
+  - [🪴 Frappé](https://getnoir.app/theme/?name=Catppuccin%20Frappe&bg=303446&text=c6d0f5)
   - [🌺 Macchiato](https://getnoir.app/theme/?name=Catppuccin%20Macchiato&bg=24273a&text=cad3f5)
   - [🌿 Mocha](https://getnoir.app/theme/?name=Catppuccin%20Mocha&bg=1e1e2e&text=cdd6f4)
 2. Tap/click on "Open Theme In App".
