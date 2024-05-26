@@ -1,3 +1,8 @@
+---
+whiskers:
+  version: "2.2.0"
+  filename: "README.md"
+---
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
@@ -18,10 +23,9 @@
 ## Usage
 
 1. Open one of the flavors below:
-  - [🌻 Latte](https://getnoir.app/theme/?name=Catppuccin%20Latte&bg=eff1f5&text=4c4f69)
-  - [🪴 Frappé](https://getnoir.app/theme/?name=Catppuccin%20Frappe&bg=303446&text=c6d0f5)
-  - [🌺 Macchiato](https://getnoir.app/theme/?name=Catppuccin%20Macchiato&bg=24273a&text=cad3f5)
-  - [🌿 Mocha](https://getnoir.app/theme/?name=Catppuccin%20Mocha&bg=1e1e2e&text=cdd6f4)
+{%- for _, flavor in flavors %}
+  - [{{ flavor.emoji }} {{ flavor.name }}](https://getnoir.app/theme/?name=Catppuccin%20{{ flavor.identifier | capitalize }}&bg={{ flavor.colors.base.hex }}&text={{ flavor.colors.text.hex }})
+{%- endfor %}
 2. Tap/click on "Open Theme In App".
 3. Add the theme, optionally enabling "Set as Default Theme"
 
